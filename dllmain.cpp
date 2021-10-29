@@ -18,6 +18,7 @@
 #define BLOODRAINID 1435;
 FTigerCharacterAppearance CurrentOutfitConfig;
 
+// https://imgur.com/a/VEOjkDF
 void(*OProcessEvent)(UObject*, UFunction*, void*) = nullptr;
 void __fastcall ProcessEvent(UObject* thisUObject, UFunction* Function, void* Src)
 {
