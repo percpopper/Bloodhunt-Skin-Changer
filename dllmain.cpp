@@ -2,7 +2,7 @@
 #include "Engine.h"
 
 /*
- We will fill out outfit config to one from the store, and apply it to our own character 
+ We will fill the CurrentOutfitConfig variable or just take one from the store, and apply it to our own character 
  instead of the actor its applying to when previewing in the store. This can be customized 
  and improved a ton, even called without a hook (im lazy), but this is just an example.
 
