@@ -29,8 +29,8 @@ void __fastcall ProcessEvent(UObject* thisUObject, UFunction* Function, void* Sr
 			going through battlepass or store items. You can print the data in
 			CurrentOutfitConfig to get an idea of what your doing and what IDs your using.
 			Call the function with our own 'this', being CharacterCustomizationComponent, which
-			belongs to the same class as the function does and is for our own player, and with our own parameters that we
-			stole or your own modified parameters.
+			belongs to the same class as the function does and is for our own player, and with our stolen parameters or 
+			your own modified parameters.
 		*/
 
 		// Check if Function Tiger.TigerCharCustomizationComponent.SetAppearance is passed as the function
