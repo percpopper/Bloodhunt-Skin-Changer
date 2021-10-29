@@ -3,8 +3,9 @@
 
 /*
  We will fill the FTigerCharacterAppearance in the parameters and apply it to our own character 
- instead of the actor its applying to when previewing in the store. This can be customized 
- and improved a ton, even called without a hook (im lazy), but this is just an example.
+ instead of the actor its supposed to be applying to when previewing in the store. This can be called
+ manually again later so you can use in game. This can be customized and improved a ton, even called without a hook 
+ (im lazy af), but this is just an example.
 
  This is the function we will be looking into.
  Class Tiger.TigerCharCustomizationComponent
