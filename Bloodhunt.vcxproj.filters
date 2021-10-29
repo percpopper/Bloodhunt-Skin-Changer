@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{05bf176e-baf0-4077-b993-d1c1b7a2284c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\MinHook">
+      <UniqueIdentifier>{8c545c0d-d976-4b1e-a4f5-d6f2021b1b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\MinHook\hde">
+      <UniqueIdentifier>{8a7b33b3-3641-4058-a226-5610a08772e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UE4">
+      <UniqueIdentifier>{169d861e-a063-4bce-8b31-b14434e1d9e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>Source Files\Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>Source Files\Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
